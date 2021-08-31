@@ -87,9 +87,9 @@ class AppTheme {
 
   static final TextStyle _greetingDark = _greetingLight.copyWith(color: Colors.black);
 
-  static final TextStyle _searchDark = _searchDark.copyWith(color: Colors.black);
+  static final TextStyle _searchDark = _searchLight.copyWith(color: Colors.black);
 
-  static final TextStyle _selectedTabDark = _selectedTabDark.copyWith(color: Colors.white);
+  static final TextStyle _selectedTabDark = _selectedTabLight.copyWith(color: Colors.white);
 
-  static final TextStyle _unSelectedTabDark = _selectedTabDark.copyWith(color: Colors.white70);
+  static final TextStyle _unSelectedTabDark = _selectedTabLight.copyWith(color: Colors.white70);
 }
